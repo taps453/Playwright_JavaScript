@@ -1,3 +1,8 @@
+/*
+Write Playwright script to get all the link from a webPage.
+and get the unique link and check broken links 
+*/
+
 import { test, expect } from '@playwright/test';
 import { request } from 'node:http';
 
