@@ -46,7 +46,7 @@ test("click dynamic button", async ({page}) => {
 
         }
         if(Date.now() - currentTime > maxTime) {
-            throw new Error("Botton not found")
+            throw new Error("Button not found")
         }
         await page.waitForTimeout(500) 
     }
